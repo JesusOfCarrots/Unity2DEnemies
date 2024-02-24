@@ -34,7 +34,6 @@ public class PatorlJump : MonoBehaviour
     [SerializeField] private float jumpBackIniTime = .6f;
     private bool inRange;
     private bool hasExecuted = false;
-    private float normalMass;
 
     private int currentPatrolPointIndex = 0;
     private bool isWaiting;
