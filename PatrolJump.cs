@@ -41,7 +41,6 @@ public class PatorlJump : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        normalMass = rb.mass;
     }
 
     private void Update()
